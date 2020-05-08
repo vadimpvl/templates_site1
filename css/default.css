@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    background: #f9f9f9;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.borderline {
+    border: 1px solid #000;
+}
+
+
+
+/* HEADER */
+header {
+    height: 487px;
+    background: #eeeff1;
+}
+
+
+
+/* Content */
+.wrAbout {
+    height: 228px;
+}
+
+.wrStatisticsProjects {
+    height: 156px;
+    background: #34547a;
+}
+
+.wrMySkills {
+    height: 410px;
+}
+
+.wrMyJob {
+    height: 610px;
+    background: #eeeff1;
+}
+
+
+
+/* FOOTER */
+footer {
+    height: 95px;
+    background: #34547a;
+}
+
+.wrCopyright {
+    color: white;
+}
+
+.wrSocialLinks {
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer_cont_centr {
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fab,
+.far {
+    font-size: 2em;
+    color: white;
+}
+
+.wrSocialLinks a:hover .fab,
+.fara {
+    color: #FF8000;
+    transition: 0.5s ease-in-out;
+}
+
+.AutorName {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Feedback */
+.wrFeedbackForm {
+    height: 475px;
+    background: #eeeff1;
+}
+
+.wrFeedbackForm_cont_centr {
+    height: 475px;
+    display: flex;
+    align-items: center;
+}
+
+.FeedbackContent {
+    text-align: center;
+}
+.FeedbackContent h2{
+    font-weight: bold;
+}
+#FeedbackTextarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+#FeedbackBTN{
+    padding: 10px 30px;
+    background: #34547a;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+#FeedbackBTN:hover{
+    background: #FF8000;
+    transition: 0.5s ease-in-out;
+}
